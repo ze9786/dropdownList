@@ -1,0 +1,28 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="SpinnerTheme" parent="android:Widget.Spinner.DropDown">
+        <item name="android:background">@drawable/bg_spinner</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:overlapAnchor">false</item>
+
+
+    </style>
+    <style name="SpinnerDropDownTheme" parent="android:Widget.DropDownItem.Spinner">
+        <item name="android:background">@drawable/bg_dropdownspinner</item>
+        <item name="android:textColor">#0000ff</item>
+        <item name="android:overlapAnchor">true</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scroll_bar_style</item>
+    </style>
+
+
+</resources>
